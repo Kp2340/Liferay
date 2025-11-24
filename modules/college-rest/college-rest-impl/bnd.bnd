@@ -1,0 +1,4 @@
+Bundle-Name: college-rest-impl
+Bundle-SymbolicName: com.example.college.rest.impl
+Bundle-Version: 1.0.0
+

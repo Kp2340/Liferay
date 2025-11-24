@@ -1,0 +1,9 @@
+apiDir: "../college-rest-api/src/main/java"
+apiPackagePath: "com.example.college.rest"
+application:
+    baseURI: "/college-rest"
+    className: "CollegeRestApplication"
+    name: "CollegeRest"
+author: "kushp"
+clientDir: "../college-rest-client/src/main/java"
+testDir: "../college-rest-test/src/testIntegration/java"

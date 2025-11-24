@@ -1,0 +1,15 @@
+buildscript {
+	dependencies {
+		classpath group: "com.liferay", name: "com.liferay.gradle.plugins.workspace", version: "12.0.0"
+//		classpath group: "com.liferay", name: "com.liferay.gradle.plugins.workspace", version: "10.1.0"
+//		classpath group: "com.liferay", name: "com.liferay.gradle.plugins.workspace", version: "13.0.3"
+	}
+	repositories {
+		mavenLocal()
+		maven {
+//			url "[https://repository-cdn.liferay.com/nexus/content/groups/public](https://repository-cdn.liferay.com/nexus/content/groups/public)"
+			url "https://repository-cdn.liferay.com/nexus/content/groups/public"
+		}
+	}
+}
+apply plugin: "com.liferay.workspace"

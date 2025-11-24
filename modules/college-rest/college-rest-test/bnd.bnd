@@ -1,0 +1,5 @@
+Bundle-Name: college-rest-test
+Bundle-SymbolicName: com.example.college.rest.test
+Bundle-Version: 1.0.0
+-includeresource: com.example.college.rest.client.jar=../college-rest-client/build/libs/com.example.college.rest.client-1.0.0.jar;lib:=true
+-provider-policy: ${replacestring;${range;[==,==]};.*,(.*)];$1}

@@ -1,0 +1,6 @@
+Bundle-Name: college-rest-api
+Bundle-SymbolicName: com.example.college.rest.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.example.college.rest.dto.v1_0,\
+	com.example.college.rest.resource.v1_0

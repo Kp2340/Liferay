@@ -1,0 +1,10 @@
+Bundle-Name: college-api
+Bundle-SymbolicName: com.example.college.api
+Bundle-Version: 1.0.0
+Export-Package: \
+    com.example.college.exception,\
+    com.example.college.model,\
+    com.example.college.service,\
+    com.example.college.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../college-service/service.xml

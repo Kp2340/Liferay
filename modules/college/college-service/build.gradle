@@ -1,0 +1,10 @@
+dependencies {
+//	api project(":modules:college:college-api")
+	compileOnly group: "com.liferay.portal", name: "release.portal.api"
+	compileOnly project(":modules:college:college-api")
+}
+buildService {
+	apiDir = "../college-api/src/main/java"
+//	testDir = "../college-test/src/testIntegration/java"
+}
+group = "com.example.college"

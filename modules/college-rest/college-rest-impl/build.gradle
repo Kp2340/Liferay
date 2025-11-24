@@ -1,0 +1,7 @@
+dependencies {
+	api project(":modules:college-rest:college-rest-api")
+	compileOnly project(":modules:college:college-api")
+	compileOnly group: "com.liferay.portal", name: "release.portal.api"
+}
+
+group = "com.example.college.rest"

@@ -1,0 +1,13 @@
+// Check GETTING_STARTED.markdown for information regarding usage.
+//plugins {
+////    id "com.liferay.workspace" version "10.1.0"
+//}
+//
+//subprojects {
+//    repositories {
+//        maven {
+//            url "[https://repository-cdn.liferay.com/nexus/content/groups/public](https://repository-cdn.liferay.com/nexus/content/groups/public)"
+//        }
+//        mavenCentral()
+//    }
+//}
