@@ -195,7 +195,7 @@ public interface StudentLocalService
 	@Transactional(propagation = Propagation.SUPPORTS, readOnly = true)
 	public ActionableDynamicQuery getActionableDynamicQuery();
 
-	@Transactional(propagation = Propagation.REQUIRED, readOnly = true)
+	@Transactional(propagation = Propagation.SUPPORTS, readOnly = true)
 	public List<Student> getAllStudents();
 
 	@Transactional(propagation = Propagation.SUPPORTS, readOnly = true)
